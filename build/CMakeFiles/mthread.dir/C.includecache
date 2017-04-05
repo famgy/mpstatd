@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/gpf/projects/my_pstat/common.h
+stddef.h
+-
+sys/types.h
+-
+unistd.h
+-
+stdint.h
+-
+
+/home/gpf/projects/my_pstat/msignal.h
+signal.h
+-
+
+/home/gpf/projects/my_pstat/mthread.c
+common.h
+/home/gpf/projects/my_pstat/common.h
+mthread.h
+/home/gpf/projects/my_pstat/mthread.h
+msignal.h
+/home/gpf/projects/my_pstat/msignal.h
+stdio.h
+-
+time.h
+-
+errno.h
+-
+
+/home/gpf/projects/my_pstat/mthread.h
+semaphore.h
+-
+pthread.h
+-
+

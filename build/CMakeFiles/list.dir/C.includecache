@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/gpf/projects/my_pstat/list.c
+stddef.h
+-
+list.h
+/home/gpf/projects/my_pstat/list.h
+stdlib.h
+-
+
+/home/gpf/projects/my_pstat/list.h
+

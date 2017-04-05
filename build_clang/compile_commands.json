@@ -1,0 +1,67 @@
+[
+{
+  "directory": "/home/gpf/projects/my_pstat/build_clang",
+  "command": "/usr/bin/clang-3.9   -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/uuid   -Wall   -std=gnu11 -o CMakeFiles/mtrack.dir/mtrack.c.o   -c /home/gpf/projects/my_pstat/mtrack.c",
+  "file": "/home/gpf/projects/my_pstat/mtrack.c"
+},
+{
+  "directory": "/home/gpf/projects/my_pstat/build_clang",
+  "command": "/usr/bin/clang-3.9   -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/uuid   -Wall   -std=gnu11 -o CMakeFiles/mseqlist.dir/mseqlist.c.o   -c /home/gpf/projects/my_pstat/mseqlist.c",
+  "file": "/home/gpf/projects/my_pstat/mseqlist.c"
+},
+{
+  "directory": "/home/gpf/projects/my_pstat/build_clang",
+  "command": "/usr/bin/clang-3.9   -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/uuid   -Wall   -std=gnu11 -o CMakeFiles/msignal.dir/msignal.c.o   -c /home/gpf/projects/my_pstat/msignal.c",
+  "file": "/home/gpf/projects/my_pstat/msignal.c"
+},
+{
+  "directory": "/home/gpf/projects/my_pstat/build_clang",
+  "command": "/usr/bin/clang-3.9   -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/uuid   -Wall   -std=gnu11 -o CMakeFiles/common.dir/common.c.o   -c /home/gpf/projects/my_pstat/common.c",
+  "file": "/home/gpf/projects/my_pstat/common.c"
+},
+{
+  "directory": "/home/gpf/projects/my_pstat/build_clang",
+  "command": "/usr/bin/clang-3.9   -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/uuid   -Wall   -std=gnu11 -o CMakeFiles/mpcap.dir/mpcap.c.o   -c /home/gpf/projects/my_pstat/mpcap.c",
+  "file": "/home/gpf/projects/my_pstat/mpcap.c"
+},
+{
+  "directory": "/home/gpf/projects/my_pstat/build_clang",
+  "command": "/usr/bin/clang-3.9   -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/uuid   -Wall   -std=gnu11 -o CMakeFiles/mthread.dir/mthread.c.o   -c /home/gpf/projects/my_pstat/mthread.c",
+  "file": "/home/gpf/projects/my_pstat/mthread.c"
+},
+{
+  "directory": "/home/gpf/projects/my_pstat/build_clang",
+  "command": "/usr/bin/clang-3.9   -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/uuid   -Wall   -pthread -std=gnu11 -o CMakeFiles/mpstatd.dir/mpstatd.c.o   -c /home/gpf/projects/my_pstat/mpstatd.c",
+  "file": "/home/gpf/projects/my_pstat/mpstatd.c"
+},
+{
+  "directory": "/home/gpf/projects/my_pstat/build_clang",
+  "command": "/usr/bin/clang-3.9   -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/uuid   -Wall   -std=gnu11 -o CMakeFiles/mpacket.dir/mpacket.c.o   -c /home/gpf/projects/my_pstat/mpacket.c",
+  "file": "/home/gpf/projects/my_pstat/mpacket.c"
+},
+{
+  "directory": "/home/gpf/projects/my_pstat/build_clang",
+  "command": "/usr/bin/clang-3.9   -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/uuid   -Wall   -std=gnu11 -o CMakeFiles/mconn.dir/mconn.c.o   -c /home/gpf/projects/my_pstat/mconn.c",
+  "file": "/home/gpf/projects/my_pstat/mconn.c"
+},
+{
+  "directory": "/home/gpf/projects/my_pstat/build_clang",
+  "command": "/usr/bin/clang-3.9   -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/uuid   -Wall   -std=gnu11 -o CMakeFiles/mepoll.dir/mepoll.c.o   -c /home/gpf/projects/my_pstat/mepoll.c",
+  "file": "/home/gpf/projects/my_pstat/mepoll.c"
+},
+{
+  "directory": "/home/gpf/projects/my_pstat/build_clang",
+  "command": "/usr/bin/clang-3.9   -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/uuid   -Wall   -std=gnu11 -o CMakeFiles/list.dir/list.c.o   -c /home/gpf/projects/my_pstat/list.c",
+  "file": "/home/gpf/projects/my_pstat/list.c"
+},
+{
+  "directory": "/home/gpf/projects/my_pstat/build_clang",
+  "command": "/usr/bin/clang-3.9   -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/uuid   -Wall   -std=gnu11 -o CMakeFiles/mpipe.dir/mpipe.c.o   -c /home/gpf/projects/my_pstat/mpipe.c",
+  "file": "/home/gpf/projects/my_pstat/mpipe.c"
+},
+{
+  "directory": "/home/gpf/projects/my_pstat/build_clang",
+  "command": "/usr/bin/clang-3.9   -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/uuid   -Wall   -std=gnu11 -o CMakeFiles/mconn_relay.dir/mconn_relay.c.o   -c /home/gpf/projects/my_pstat/mconn_relay.c",
+  "file": "/home/gpf/projects/my_pstat/mconn_relay.c"
+}
+]

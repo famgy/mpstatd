@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/gpf/projects/my_pstat/common.c
+common.h
+/home/gpf/projects/my_pstat/common.h
+
+/home/gpf/projects/my_pstat/common.h
+stddef.h
+-
+sys/types.h
+-
+unistd.h
+-
+stdint.h
+-
+

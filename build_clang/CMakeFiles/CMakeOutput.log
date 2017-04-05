@@ -1,0 +1,221 @@
+The system is: Linux - 4.9.0-2-amd64 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/clang-3.9 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is Clang, found in "/home/gpf/projects/my_pstat/build_clang/CMakeFiles/3.7.2/CompilerIdC/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/gpf/projects/my_pstat/build_clang/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ac321/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ac321.dir/build.make CMakeFiles/cmTC_ac321.dir/build
+make[1]: Entering directory '/home/gpf/projects/my_pstat/build_clang/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ac321.dir/testCCompiler.c.o
+/usr/bin/clang-3.9     -o CMakeFiles/cmTC_ac321.dir/testCCompiler.c.o   -c /home/gpf/projects/my_pstat/build_clang/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_ac321
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ac321.dir/link.txt --verbose=1
+/usr/bin/clang-3.9       CMakeFiles/cmTC_ac321.dir/testCCompiler.c.o  -o cmTC_ac321 -rdynamic 
+make[1]: Leaving directory '/home/gpf/projects/my_pstat/build_clang/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/gpf/projects/my_pstat/build_clang/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9cab1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9cab1.dir/build.make CMakeFiles/cmTC_9cab1.dir/build
+make[1]: Entering directory '/home/gpf/projects/my_pstat/build_clang/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9cab1.dir/CMakeCCompilerABI.c.o
+/usr/bin/clang-3.9     -o CMakeFiles/cmTC_9cab1.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.7/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_9cab1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9cab1.dir/link.txt --verbose=1
+/usr/bin/clang-3.9      -v CMakeFiles/cmTC_9cab1.dir/CMakeCCompilerABI.c.o  -o cmTC_9cab1 -rdynamic  
+clang version 3.9.1-5 (tags/RELEASE_391/rc2)
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+InstalledDir: /usr/bin
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/5
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.1
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/6
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/5
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/5.4.1
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/6
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/6.3.0
+Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/usr/bin/ld" -export-dynamic --hash-style=both --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_9cab1 /usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/lib/x86_64-linux-gnu/../../lib64 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../.. -L/usr/lib/llvm-3.9/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_9cab1.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/gpf/projects/my_pstat/build_clang/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/gpf/projects/my_pstat/build_clang/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_9cab1/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_9cab1.dir/build.make CMakeFiles/cmTC_9cab1.dir/build]
+  ignore line: [make[1]: Entering directory '/home/gpf/projects/my_pstat/build_clang/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_9cab1.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/clang-3.9     -o CMakeFiles/cmTC_9cab1.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.7/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_9cab1]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9cab1.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/clang-3.9      -v CMakeFiles/cmTC_9cab1.dir/CMakeCCompilerABI.c.o  -o cmTC_9cab1 -rdynamic  ]
+  ignore line: [clang version 3.9.1-5 (tags/RELEASE_391/rc2)]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /usr/bin]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/5]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.1]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/6]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/5]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/5.4.1]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/6]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/6.3.0]
+  ignore line: [Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  link line: [ "/usr/bin/ld" -export-dynamic --hash-style=both --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_9cab1 /usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/lib/x86_64-linux-gnu/../../lib64 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../.. -L/usr/lib/llvm-3.9/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_9cab1.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/bin/ld] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [--hash-style=both] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_9cab1] ==> ignore
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/crtbegin.o] ==> ignore
+    arg [-L/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0] ==> dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0]
+    arg [-L/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../x86_64-linux-gnu] ==> dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../x86_64-linux-gnu]
+    arg [-L/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../../lib64] ==> dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../../lib64]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/lib/x86_64-linux-gnu/../../lib64] ==> dir [/usr/lib/x86_64-linux-gnu/../../lib64]
+    arg [-L/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../..] ==> dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../..]
+    arg [-L/usr/lib/llvm-3.9/bin/../lib] ==> dir [/usr/lib/llvm-3.9/bin/../lib]
+    arg [-L/lib] ==> dir [/lib]
+    arg [-L/usr/lib] ==> dir [/usr/lib]
+    arg [CMakeFiles/cmTC_9cab1.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/crtend.o] ==> ignore
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0] ==> [/usr/lib/gcc/x86_64-linux-gnu/6.3.0]
+  collapse library dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../../lib64] ==> [/usr/lib64]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/lib/x86_64-linux-gnu/../../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../..] ==> [/usr/lib]
+  collapse library dir [/usr/lib/llvm-3.9/bin/../lib] ==> [/usr/lib/llvm-3.9/lib]
+  collapse library dir [/lib] ==> [/lib]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/6.3.0;/usr/lib/x86_64-linux-gnu;/usr/lib64;/lib/x86_64-linux-gnu;/lib64;/usr/lib;/usr/lib/llvm-3.9/lib;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/gpf/projects/my_pstat/build_clang/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e6b00/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e6b00.dir/build.make CMakeFiles/cmTC_e6b00.dir/build
+make[1]: Entering directory '/home/gpf/projects/my_pstat/build_clang/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e6b00.dir/feature_tests.c.o
+/usr/bin/clang-3.9    -std=c11 -o CMakeFiles/cmTC_e6b00.dir/feature_tests.c.o   -c /home/gpf/projects/my_pstat/build_clang/CMakeFiles/feature_tests.c
+Linking C executable cmTC_e6b00
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e6b00.dir/link.txt --verbose=1
+/usr/bin/clang-3.9       CMakeFiles/cmTC_e6b00.dir/feature_tests.c.o  -o cmTC_e6b00 -rdynamic 
+make[1]: Leaving directory '/home/gpf/projects/my_pstat/build_clang/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/gpf/projects/my_pstat/build_clang/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_88d0e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_88d0e.dir/build.make CMakeFiles/cmTC_88d0e.dir/build
+make[1]: Entering directory '/home/gpf/projects/my_pstat/build_clang/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_88d0e.dir/feature_tests.c.o
+/usr/bin/clang-3.9    -std=c99 -o CMakeFiles/cmTC_88d0e.dir/feature_tests.c.o   -c /home/gpf/projects/my_pstat/build_clang/CMakeFiles/feature_tests.c
+Linking C executable cmTC_88d0e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88d0e.dir/link.txt --verbose=1
+/usr/bin/clang-3.9       CMakeFiles/cmTC_88d0e.dir/feature_tests.c.o  -o cmTC_88d0e -rdynamic 
+make[1]: Leaving directory '/home/gpf/projects/my_pstat/build_clang/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/gpf/projects/my_pstat/build_clang/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_edfd5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_edfd5.dir/build.make CMakeFiles/cmTC_edfd5.dir/build
+make[1]: Entering directory '/home/gpf/projects/my_pstat/build_clang/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_edfd5.dir/feature_tests.c.o
+/usr/bin/clang-3.9    -std=c90 -o CMakeFiles/cmTC_edfd5.dir/feature_tests.c.o   -c /home/gpf/projects/my_pstat/build_clang/CMakeFiles/feature_tests.c
+Linking C executable cmTC_edfd5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_edfd5.dir/link.txt --verbose=1
+/usr/bin/clang-3.9       CMakeFiles/cmTC_edfd5.dir/feature_tests.c.o  -o cmTC_edfd5 -rdynamic 
+make[1]: Leaving directory '/home/gpf/projects/my_pstat/build_clang/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/gpf/projects/my_pstat/build_clang/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5e287/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5e287.dir/build.make CMakeFiles/cmTC_5e287.dir/build
+make[1]: Entering directory '/home/gpf/projects/my_pstat/build_clang/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5e287.dir/CheckIncludeFile.c.o
+/usr/bin/clang-3.9    -Wall    -o CMakeFiles/cmTC_5e287.dir/CheckIncludeFile.c.o   -c /home/gpf/projects/my_pstat/build_clang/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_5e287
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e287.dir/link.txt --verbose=1
+/usr/bin/clang-3.9   -Wall     CMakeFiles/cmTC_5e287.dir/CheckIncludeFile.c.o  -o cmTC_5e287 -rdynamic 
+make[1]: Leaving directory '/home/gpf/projects/my_pstat/build_clang/CMakeFiles/CMakeTmp'
+
+
